@@ -229,8 +229,6 @@ game.Lighting.GlobalShadows = false
 local StarterGui = game:GetService('StarterGui')
 
 wait()
-
-StarterGui:SetCore("LeaveButtonCallback",false)
 while true do
 	for deg = 0, 360, incr do
 		--for _,v in pairs(game.Players:GetPlayers())do -- returns array of all players which you can iterate through
